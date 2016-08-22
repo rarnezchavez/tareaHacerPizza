@@ -13,6 +13,10 @@
 		A10C3B351D6A7256003D4F9F /* CreandoUnaPizza.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A10C3B331D6A7256003D4F9F /* CreandoUnaPizza.xcdatamodeld */; };
 		A10C3B371D6A7256003D4F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10C3B361D6A7256003D4F9F /* Assets.xcassets */; };
 		A10C3B3A1D6A7256003D4F9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10C3B381D6A7256003D4F9F /* LaunchScreen.storyboard */; };
+		A10C3B421D6A7E58003D4F9F /* TipoMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C3B411D6A7E58003D4F9F /* TipoMasa.swift */; };
+		A10C3B441D6A83D8003D4F9F /* TipoQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C3B431D6A83D8003D4F9F /* TipoQueso.swift */; };
+		A10C3B461D6A86F7003D4F9F /* Ingredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C3B451D6A86F7003D4F9F /* Ingredientes.swift */; };
+		A10C3B481D6A99DA003D4F9F /* Confirmacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C3B471D6A99DA003D4F9F /* Confirmacion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A10C3B361D6A7256003D4F9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A10C3B391D6A7256003D4F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A10C3B3B1D6A7256003D4F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10C3B411D6A7E58003D4F9F /* TipoMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoMasa.swift; sourceTree = "<group>"; };
+		A10C3B431D6A83D8003D4F9F /* TipoQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoQueso.swift; sourceTree = "<group>"; };
+		A10C3B451D6A86F7003D4F9F /* Ingredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredientes.swift; sourceTree = "<group>"; };
+		A10C3B471D6A99DA003D4F9F /* Confirmacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Confirmacion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				A10C3B381D6A7256003D4F9F /* LaunchScreen.storyboard */,
 				A10C3B3B1D6A7256003D4F9F /* Info.plist */,
 				A10C3B331D6A7256003D4F9F /* CreandoUnaPizza.xcdatamodeld */,
+				A10C3B411D6A7E58003D4F9F /* TipoMasa.swift */,
+				A10C3B431D6A83D8003D4F9F /* TipoQueso.swift */,
+				A10C3B451D6A86F7003D4F9F /* Ingredientes.swift */,
+				A10C3B471D6A99DA003D4F9F /* Confirmacion.swift */,
 			);
 			path = CreandoUnaPizza;
 			sourceTree = "<group>";
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10C3B461D6A86F7003D4F9F /* Ingredientes.swift in Sources */,
 				A10C3B2F1D6A7256003D4F9F /* ViewController.swift in Sources */,
 				A10C3B351D6A7256003D4F9F /* CreandoUnaPizza.xcdatamodeld in Sources */,
+				A10C3B481D6A99DA003D4F9F /* Confirmacion.swift in Sources */,
+				A10C3B441D6A83D8003D4F9F /* TipoQueso.swift in Sources */,
 				A10C3B2D1D6A7256003D4F9F /* AppDelegate.swift in Sources */,
+				A10C3B421D6A7E58003D4F9F /* TipoMasa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
